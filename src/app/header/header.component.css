@@ -1,0 +1,42 @@
+.header { 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit
+}
+
+.title {
+    font-size: 300%;
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+}
+
+.title:hover {
+    font-size: 600%;
+    color: black;
+    background-color: yellow;
+    transition: 0.6s;
+}
+
+@keyframes blink {
+    from {color: yellow;}
+    to {color: black;}
+}
+
+.cursor {
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+}
+
+@media (max-width: 1100px) {
+    .title {
+        font-size: 150%;
+    }
+}
