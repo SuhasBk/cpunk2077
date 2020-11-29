@@ -7,6 +7,9 @@
 
 body {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./assets/4k-cyberpunk-2077-game-v7.jpg');
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
